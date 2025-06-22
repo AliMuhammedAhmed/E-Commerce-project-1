@@ -1,0 +1,218 @@
+ <!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>custom Craft</title>
+    <link rel="stylesheet" href="Weeb.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <h1>Custom Craft</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#clients"> Our clients</a></li>
+                <li><a href="#vision">Our vision</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+       <section id="home" class="hero">
+        <div class="hero-content">
+            
+        </div>
+    </section>
+
+        <section id="shop"  class="shop">
+        <h2>  Our Custom T-Shirts </h2>
+
+        <div class="product-gallery">
+           <div class="product">
+                <img src="T-shirt 1.png" alt="Classic T-shirt">   
+
+
+                <h3>Classic Tee</h3>
+                <p>Perfect for every day. Pick your favorite design and size!
+
+                    price:19.99$
+
+                </p>
+                <a href="T-shirt.html" class="btn">Customize</a>
+            </div>
+            <div class="product">
+                <img src="T-shirt 2.png" alt="Vintage T-shirt">
+                <h3>Vintage Tee</h3>
+                <p>If you love the retro look, this one's for you!
+<br>
+                    price:39.99$
+                </p>
+
+                <br>
+                <br>
+                <a href="TT-shirt.html" class="btn">Customize</a>
+            </div>
+            <div class="product">
+                <img src="T-shirt 3.png" alt="Premium T-shirt">
+                <h3>Premium Tee</h3>
+                <p>Soft fabric, perfect fit – you won’t want to take it off.
+
+                    price:49.99$
+
+                </p>
+
+<br>
+                <br>
+                <a href="TTT-shirt.html" class="btn">Customize</a>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="customize" class="customize">
+        <h2>Create Your Custom T-Shirt</h2>
+        <br>
+        <br>
+        <form id="customization-form" action="design.php" method="POST" enctype="multipart/form-data">
+            <label for="color">Pick Your Color:</label>
+            <input type="color" id="color" name="color" value="#000000">
+            <br>
+            <br>
+            <label for="upload">Upload Your Design:</label>
+            <input type="file" id="upload" name="upload" required><br>
+            <br>
+            <br>
+            <label for="quantity">How many shirts do you need?</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+<br><br>
+<br>
+<label for="Address">Where do want Us To Drop Your product</label>
+<textarea>Enter your Address </textarea>
+<br>
+        <br>
+<br>
+        
+            <label for="size">Size:</label>
+            <select id="size" name="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="extra-large">Extra Large</option>
+            </select>
+        
+            <label for="delivery-date">When do you need it?</label>
+            <input type="date" id="delivery-date" name="delivery-date" required><br>
+        
+            <br>
+            <button type="submit">Submit Your Design</button>
+        </form>
+        
+    </section>
+
+  
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We're a small but passionate team, here to help you express yourself through high-quality, custom T-shirts. We put love and effort into every design!</p>
+    </section>
+
+   
+    <section id="clients" class="clients">
+        <h2>Our Clients</h2>
+        <p> we've had the pleasure of working with our amazing clients. and they are proud of our working </p>
+        <div class="client-gallery">
+            <div class="client">
+                <img id="pp" src="Our cli.png" alt="Client 1">
+                <p>XYZ Corporation</p>
+            </div>
+            <div class="client">
+                <img src="ourcli2.png" alt="Client 2">
+                <p>Team ABC</p>
+            </div>
+            <div class="client">
+                <img src="our cli.2.png" alt="Client 3">
+                <p>School District 101</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="vision" class="vision">
+        <h2>Our Vision</h2>
+        <p>We believe in the power of self-expression. Our mission is to make it easy for everyone to design and wear T-shirts that truly represent who they are.</p>
+    </section>
+
+ 
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Customers Are Saying</h2>
+        <div class="testimonial">
+            <p>"I absolutely love my custom T-shirt! The quality is amazing, and the design process was so simple. Highly recommend!"</p>
+            <p>- Dalya, Lovely Customer</p>
+        </div>
+        <div class="testimonial">
+            <p>"We ordered custom shirts for our team, and they turned out perfect! The whole team loves them."</p>
+            <p>- Zainab , </p>
+        </div>
+        <div class="testimonial">
+            <p>"Fast service, great quality, and friendly staff. Definitely will be ordering again!"</p>
+            <p>- Ahmed </p>
+        </div>
+    </section>
+
+   
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>How do I design my T-shirt?</h3>
+            <p>Just head over to the shop, choose your T-shirt style, and use our easy-to-use design tool to upload your own artwork or pick from our pre-made designs!</p>
+        </div>
+        <div class="faq-item">
+            <h3>What materials do you use for your T-shirts?</h3>
+            <p>We use only the best materials – from soft cotton to eco-friendly fabrics. Each product page has all the details on the materials used.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Do you offer bulk discounts?</h3>
+            <p>Yes! We love helping out with bulk orders. Contact us for pricing info and discounts for larger quantities.</p>
+        </div>
+    </section>
+
+    
+    <section id="blog" class="blog">
+        <h2>Our Blog</h2>
+        <article class="blog-post">
+            <h3>Trends in Custom T-Shirts</h3>
+            <p>Want to keep your T-shirt game strong? Check out our latest blog post to find out what’s trending in the world of custom T-shirts.</p>
+            <a href="#">Read More</a>
+        </article>
+        <article class="blog-post">
+            <h3>Tips for Designing the Perfect T-shirt</h3>
+            <p>Struggling with your design? We’ve got some tips to help you make sure your custom T-shirt looks amazing!</p>
+            <a href="#">Read More</a>
+        </article>
+    </section>
+
+    
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Send Message </button>
+
+
+                
